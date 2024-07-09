@@ -29,6 +29,7 @@ nav button {
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
   opacity: 0.8;
+  cursor: pointer;
 }
 /* nav bar ends here  */
 /* banner style start here  */
@@ -196,3 +197,89 @@ nav button {
   border-radius: 16px;
 }
 /* Inspiration style ends here  */
+
+/* Target style start here */
+.target-container {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 1140px;
+  height: 463px;
+}
+.target-title {
+  width: 946px;
+  height: 115px;
+  margin: 0 auto;
+  margin-bottom: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.target-title h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+.target-title p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  text-align: center;
+}
+.target-items {
+  width: 1140px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.item-center1 {
+  width: 364px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background-color: rgba(255, 76, 30, 0.05);
+}
+.item-center2 {
+  width: 364px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.item-center3 {
+  width: 364px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background-color: rgba(255, 223, 0, 0.05);
+}
+.item-name {
+
+  width: 284px;
+  height: 220px;
+}
+.item-name img {
+  margin-bottom: 24px;
+}
+.item-name h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.item-name p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+.item-name a {
+  font-size: 12px;
+  font-weight: 700;
+  color: black;
+}
+/* Target style ends here */
