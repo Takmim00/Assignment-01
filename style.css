@@ -31,7 +31,7 @@ nav button {
   opacity: 0.8;
 }
 /* nav bar ends here  */
-/* banner section start here  */
+/* banner style start here  */
 .banner-container {
   max-width: 1440px;
   height: 652px;
@@ -73,9 +73,9 @@ nav button {
   border-radius: 8px;
   background-color: black;
 }
-/* banner section ends  */
+/* banner style ends  */
 
-/* why web development section start here  */
+/* why web development style start here  */
 .development-containers {
   width: 1140px;
   height: 1395px;
@@ -153,5 +153,46 @@ nav button {
   width: 259.56px;
   height: 217.01px;
 }
-/* why web development section start here  */
+/* why web development style ends here  */
 
+/* Inspiration style start here  */
+.inspiration-container {
+  width: 1140px;
+  height: 777px;
+  margin: 0 auto;
+  margin-bottom: 160px;
+}
+.inspiration-content {
+  width: 852px;
+  height: 115px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 44px;
+}
+.inspiration-content h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.inspiration-content p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  text-align: center;
+}
+.video-container {
+  width: 1140px;
+  height: 614px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-content iframe {
+  width: 1076px;
+  height: 550px;
+  border-radius: 16px;
+}
+/* Inspiration style ends here  */
