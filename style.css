@@ -38,7 +38,7 @@ nav button {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  background-image: url("./assets/herobanner.png");
+  background-image: url("../assets/herobanner.png");
   margin-top: 35px;
   margin-bottom: 74px;
 }
@@ -80,6 +80,7 @@ nav button {
   width: 1140px;
   height: 1395px;
   margin: 0 auto;
+  margin-bottom: 88px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -152,3 +153,5 @@ nav button {
   width: 259.56px;
   height: 217.01px;
 }
+/* why web development section start here  */
+
