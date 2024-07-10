@@ -2,6 +2,7 @@
 
 body {
   font-family: "Azeret Mono", monospace;
+  scroll-behavior: smooth;
 }
 * {
   margin: 0;
@@ -56,6 +57,7 @@ nav button {
   font-weight: 700;
   text-align: center;
   margin-top: 24px;
+  margin-bottom: 20px;
 }
 .banner-content p {
   font-size: 16px;
@@ -63,6 +65,7 @@ nav button {
   text-align: center;
   opacity: 0.7;
   margin-top: 24px;
+  margin-bottom: 20px;
 }
 .banner-content button {
   font-size: 20px;
@@ -73,6 +76,7 @@ nav button {
   height: 50px;
   border-radius: 8px;
   background-color: black;
+  cursor: pointer;
 }
 /* banner style ends  */
 
@@ -347,13 +351,15 @@ nav button {
 }
 /* Support style ends here  */
 /* footer style start here */
-.footer-container {
+#footer-container {
   max-width: 1440px;
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(13, 19, 33, 0.0);
+  scroll-margin-block-start: 110px;
+  scroll-margin-block-end: 110px;
 }
 .footer-content {
   width: 1140px;
