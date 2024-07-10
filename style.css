@@ -344,4 +344,24 @@ nav button {
   cursor: pointer;
 }
 /* Support style ends here  */
-footer style start here
+/* footer style start here */
+.footer-container {
+  max-width: 1440px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(13, 19, 33, 0.0);
+}
+.footer-content {
+  width: 1140px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-content p {
+  font-size: 18px;
+  font-weight: 500;
+}
+/* footer style ends here */
