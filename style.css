@@ -354,6 +354,7 @@ nav button {
 #footer-container {
   max-width: 1440px;
   height: 100px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
