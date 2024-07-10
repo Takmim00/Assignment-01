@@ -161,7 +161,7 @@ nav button {
   width: 1140px;
   height: 777px;
   margin: 0 auto;
-  margin-bottom: 160px;
+  margin-bottom: 45px;
 }
 .inspiration-content {
   width: 852px;
@@ -201,7 +201,7 @@ nav button {
 /* Target style start here */
 .target-container {
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   width: 1140px;
   height: 463px;
 }
@@ -258,27 +258,90 @@ nav button {
   border-radius: 16px;
   background-color: rgba(255, 223, 0, 0.05);
 }
-.item-name {
+.item-description {
   width: 284px;
   height: 220px;
 }
-.item-name img {
+.item-description img {
   margin-bottom: 24px;
 }
-.item-name h4 {
+.item-description h4 {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 12px;
 }
-.item-name p {
+.item-description p {
   font-size: 16px;
   font-weight: 400;
   opacity: 0.7;
   margin-bottom: 24px;
 }
-.item-name a {
+.item-description a {
   font-size: 12px;
   font-weight: 700;
   color: black;
 }
 /* Target style ends here */
+/* Support style start here  */
+.support-container {
+  width: 1140px;
+  height: 314px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("./assets/handshake.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.support-content {
+  width: 1044px;
+  height: 186px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.support-title {
+  width: 780px;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.support-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.support-title p {
+  opacity: 0.7;
+}
+.support-button {
+  display: flex;
+  flex: row;
+  gap: 20px;
+}
+.support-button input {
+  width: 450px;
+  height: 20px;
+  padding: 19px 20px;
+  border-radius: 8px;
+  border: none;
+}
+.support-button button {
+  width: 120px;
+  height: 58px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+/* Support style ends here  */
+footer style start here
