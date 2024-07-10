@@ -358,8 +358,6 @@ nav button {
   justify-content: center;
   align-items: center;
   background-color: rgba(13, 19, 33, 0.0);
-  scroll-margin-block-start: 110px;
-  scroll-margin-block-end: 110px;
 }
 .footer-content {
   width: 1140px;
